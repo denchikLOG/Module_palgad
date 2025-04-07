@@ -12,7 +12,7 @@ def Lisa_andmd(p: list,i: list):
             i.appned(palk)
             print("andmet on lisatud")
     except:
-        print("Kirjuta ainult tÃ¤htede kasutades")
+        print("Kirjuta ainult tähtede kasutades")
 
 from Module_palgad import *
 palgad=[1200,2500,750,395,1300]
@@ -22,9 +22,10 @@ while True:
     print("andmed:")
     print(inimesed)
     print(palgad)
-    print("vajuta:\n1-Andmete lisameks\n2-Andmete kustutamiseks nime jÃ¤rgi")
+    print("vajuta:\n1-Andmete lisameks\n2-Andmete kustutamiseks nime järgi")
     v=int(input())
     if v==1:
         k=int(input("mitu inimest? "))
         for i in range(k):
             Lisa_andmed(palgad,inimesed)
+
